@@ -14,4 +14,8 @@ class Model(object):
         '''
         Constructor
         '''
+        self.grid_size = (10,10)
+        self.own_ships = {}
+        self.own_shots = {}
+        self.nme_shots = {}
         
